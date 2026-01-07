@@ -1,0 +1,13 @@
+
+{
+    "Hero": {
+        "homeTitle": "Yarelly Berger",
+        "homeDescription": "Coding, learning, growing — Full-Stack in progress. \nLooking for a Web Developer apprenticeship."
+    },
+
+    "Navbar": {
+        "aboutButton": "About Me",
+        "projectsButton": "Projects",
+        "contactButton": "Contact"
+    }
+}

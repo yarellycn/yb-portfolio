@@ -1,0 +1,13 @@
+
+{
+    "Hero": {
+        "homeTitle": "Yarelly Berger",
+        "homeDescription": "Programar, aprender, crecer — Full Stack en progreso. \nEn búsqueda de una alternancia como Desarrolladora Web."
+    },
+
+    "Navbar": {
+        "aboutButton": "Sobre mí",
+        "projectsButton": "Proyectos",
+        "contactButton": "Contacto"
+    }
+}
