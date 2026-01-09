@@ -9,5 +9,10 @@
         "aboutButton": "About Me",
         "projectsButton": "Projects",
         "contactButton": "Contact"
+    },
+
+    "About": {
+        "aboutTitle" : "Hi there!",
+        "aboutDescription": "My name is Yarelly, and I come from the land of llamas, ceviche, and the mysterious Macchu Picchu. \nAfter spending several years immersed in the world of luxury hospitality, I realized that the fast-paced rhythm just wasn't for me anymore. \nWeekends and holidays away from family start to take their toll after a while. \nSo… how did I end up writing code? \nScroll down to discover the story!"
     }
 }

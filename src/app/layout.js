@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Fredoka } from "next/font/google";
+import { Providers } from './providers';
  
 const fredoka = Fredoka({
   subsets: ["latin"],
@@ -13,7 +14,7 @@ export default function RootLayout({children}) {
         <title>Yarelly Berger Portfolio</title>
       </head>
       <body>
-       {children}
+       <Providers>{children}</Providers>
       </body>
     </html>
   );

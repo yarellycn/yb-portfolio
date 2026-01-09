@@ -7,6 +7,32 @@ body, .ant-typography, .ant-btn, .ant-btn span {
   font-family: 'Fredoka', sans-serif;
 }
 
+.heroContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(248, 184, 157, 1);
+}
+
+.navBar {
+  height: 12vh;
+}
+
+.navbarButton {
+  font-weight: 500;
+  font-style: medium;
+  font-size: 22px;
+  width: 200px;
+}
+
+.homeBgd {
+  height: 85%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 h1 {
   color: rgba(117, 40, 8, 1);
   font-weight: 700;
@@ -17,23 +43,133 @@ h1 {
 p {
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 27px;
 }
 
-.homeContainer {
-  height: 100vh;
+.hero {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+.mountainBack {
+  min-height: auto;
   width: 100%;
-  background: rgba(248, 184, 157, 1);
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  /* padding-top: 20%; */
 }
 
-.navBar {
-  height: 15vh;
-  padding: 0.5rem 10rem;
+.mountainFront {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 20%;
 }
 
-.navbarButton {
-  font-weight: 500;
-  font-style: medium;
-  font-size: 20px;
-  width: 200px;
+.heroSun {
+  height: 20%;
+  position: absolute;
+  right: 6%;
+  transition: transform 0.50s ease;
+}
+
+.heroSun:hover {
+  transform: rotate(180deg);
+}
+
+.heroLlama {
+  height: 35%;
+  position:absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.heroText {
+  position: absolute;
+  top: 4%;
+  left: 6%;
+}
+
+.splitter {
+  height: 20vh;
+  background: rgba(186, 90, 49, 1);
+}
+
+.splitterContent {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.aboutContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutContent {
+  height: 75vh;
+  background: rgba(186, 90, 49, 1);
+}
+
+.aboutSplitter {
+  position: relative;
+  flex: 1;
+  background: rgba(0, 149, 148, 1);
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50vw 25vh 50vw;
+  border-color: transparent transparent rgba(186, 90, 49, 1) transparent;
+  transform: rotateX(180deg);
+  }
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1500px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .heroText {
+    position: absolute;
+    top: -3%;
+    left: 10%;
+  }
+}
+
+/* PHONE */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .heroText {
+    position: absolute;
+    top: -3%;
+    left: 20%;
+  }
+
+  .splitter {
+    height: 15vh;
+  }
+
+  .aboutContent {
+    height: 85vh;
+}
+
+  .triangle {
+    border-width: 0 50vw 15vh 50vw;
+  }
 }

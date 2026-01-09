@@ -1,6 +1,6 @@
 "use client";
-import { Row, Space, Button, ConfigProvider } from "antd";
 import React from 'react';
+import { Row, Space, Button, ConfigProvider } from "antd";
 import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Typography } from 'antd';
 import { useRouter, usePathname } from "next/navigation";
@@ -45,7 +45,7 @@ const NavBar = () => {
                 },
             }}
             >
-            <Row justify="space-between" align="center" className="navBar">
+            <Row justify="end" align="center" className="navBar">
                 <Space align="center">
                     <Button type="text" className="navbarButton">{t("aboutButton")}</Button>
                     <Button type="text" className="navbarButton">{t("projectsButton")}</Button>
