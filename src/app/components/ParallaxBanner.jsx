@@ -22,14 +22,12 @@ const ParallaxHero = () => {
         />
       </Parallax>
 
-      <img src="hero/hero-sun.png" className="heroSun"></img>
+      <img src="/sun.png" className="heroSun"></img>
 
       <Parallax speed={-5}>
         <div className="heroText">
           <h1>{t("homeTitle")}</h1>
-          <p style={{ whiteSpace: "pre-line" }}>
-            {t("homeDescription")}
-          </p>
+          <p>{t("homeDescription")}</p>
         </div>
       </Parallax>
 
