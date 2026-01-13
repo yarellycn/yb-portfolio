@@ -30,7 +30,7 @@ const About = () => {
                 </Space>
             </div>
             <div className="aboutFooter">
-                <div class="triangle"></div>
+                <div className="triangle"></div>
             </div>
         </section>
     )
