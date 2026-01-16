@@ -14,5 +14,30 @@
     "About": {
         "aboutTitle" : "Hi there!",
         "aboutDescription": "My name is Yarelly, and I come from the land of llamas, ceviche, and the mysterious Macchu Picchu. \n\nAfter spending several years immersed in the world of luxury hospitality, I realized that the fast-paced rhythm just wasn't for me anymore. \n\nWeekends and holidays away from family start to take their toll after a while. \n\nSo… how did I end up writing code? \n\nScroll down to discover the story!"
+    },
+
+    "ContactForm": {
+        "contactTitle": "Get in touch",
+        "lastName": "Last name",
+        "firstName": "First name",
+        "email": "Email address",
+        "emailExample": "example@mail.com",
+        "message": "Your message",
+        "messageExample": "Hi there! \nLet's build something together.",
+        "submit":"Submit"
+    },
+
+    "FormNotif": {
+        "title": "Message sent!",
+        "message": "Your message has been sent successfully. I'll get back to you ASAP — promise!",
+        "errorTitle": "Oops…",
+        "errorMessage": "Something went wrong while sending your message. Please try again in a moment."
+    },
+
+    "FormErrors": {
+        "required":"This field is required",
+        "invalidName": "Letters only, please",
+        "invalidMail": "Invalid email address",
+        "shortMessage": "Your message is too short… (minimum 50 characters)"
     }
 }

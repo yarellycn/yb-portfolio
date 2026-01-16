@@ -14,5 +14,30 @@
     "About": {
         "aboutTitle" : "¡Hola!",
         "aboutDescription": "Me llamo Yarelly y vengo del país de las llamas, el ceviche y el misterioso Macchu Picchu. \n\nDespués de pasar varios años inmersa en el mundo de la hotelería de lujo, me di cuenta de que ese ritmo ya no encajaba conmigo. \n\nLos fines de semana y días festivos lejos de la familia acaban pesando con el tiempo. \n\nEntonces… ¿cómo llegué al mundo de la programación? \n\nLa historia continúa justo aquí abajo."
+    },
+
+    "ContactForm": {
+        "contactTitle": "Contáctame",
+        "lastName": "Apellido",
+        "firstName": "Nombre",
+        "email": "Correo electrónico",
+        "emailExample": "ejemplo@mail.com",
+        "message": "Tu mensaje",
+        "messageExample": "¡Hola! \n¿Trabajamos juntos?",
+        "submit":"Enviar"
+    },
+
+    "FormNotif": {
+        "title": "¡Mensaje enviado!",
+        "message": "Tu mensaje se ha enviado correctamente. Te responderé muy pronto, lo prometo!",
+        "errorTitle": "Ups…",
+        "errorMessage": "Ocurrió un error al enviar el mensaje. Inténtalo de nuevo en un momento."
+    },
+
+    "FormErrors": {
+        "required":"Este campo es obligatorio",
+        "invalidName": "Solo se permiten letras",
+        "invalidMail": "Correo electrónico inválido",
+        "shortMessage": "Tu mensaje es un poco corto… (mínimo 50 caracteres)"
     }
 }

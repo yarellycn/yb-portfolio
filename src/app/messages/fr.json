@@ -12,7 +12,32 @@
     },
 
     "About": {
-        "aboutTitle" : "Hola!",
-        "aboutDescription": "Je m'appelle Yarelly, je viens du pays des llamas, du ceviche et du Mashtou Pishtou. \n\nImmergée dans le monde de l'hôtellerie de luxe pendant des années, je me suis rendue compte que le rythme de l'hôtellerie ne me convenais plus. \n\nLes week-ends et jours fériés loin de la famille, ça finit par peser ! \n\nAlors… comment suis-je passée au code ? \n\nFaites défiler la page pour découvrir la suite."
+        "aboutTitle": "Hola!",
+        "aboutDescription": "Je m'appelle Yarelly, je viens du pays des llamas, du ceviche et du Machtou Pichtou. \n\nImmergée dans le monde de l'hôtellerie de luxe pendant des années, je me suis rendue compte que le rythme de l'hôtellerie ne me convenais plus. \n\nLes week-ends et jours fériés loin de la famille, ça finit par peser ! \n\nAlors… comment suis-je passée au code ? \n\nFaites défiler la page pour découvrir la suite."
+    },
+
+    "ContactForm": {
+        "contactTitle": "Contactez-moi",
+        "lastName": "Nom",
+        "firstName": "Prénom",
+        "email": "Adresse e-mail",
+        "emailExample": "exemple@mail.com",
+        "message": "Votre message",
+        "messageExample": "Salut ! \nOn travaille ensemble ?",
+        "submit":"Envoyer"
+    },
+
+    "FormNotif": {
+        "successTitle": "Message envoyé !",
+        "successMessage": "Votre message a bien été envoyé. Je reviens vers vous très vite, promis !",
+        "errorTitle": "Oups…",
+        "errorMessage": "Une erreur est survenue lors de l'envoi du message. Réessayez dans un instant."
+    },
+
+    "FormErrors": {
+        "required":"Ce champ est obligatoire",
+        "invalidName": "Seules les lettres sont autorisées",
+        "invalidMail": "Adresse e-mail invalide",
+        "shortMessage": "Votre message est un peu court… (50 caractères minimum)"
     }
 }
