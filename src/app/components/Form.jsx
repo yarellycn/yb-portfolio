@@ -1,7 +1,6 @@
 "use client";
 
-// import React from 'react';
-import { notification, Space, Row } from 'antd';
+import { notification, Space, Row, Flex } from 'antd';
 import { useTranslations } from "next-intl";
 import { useFormField } from '../hooks/useFormField';
 import emailjs from '@emailjs/browser';
@@ -100,8 +99,8 @@ const ContactForm = () => {
         <h2>{tForm("contactTitle")}</h2>
         <form onSubmit={handleSubmit}>
             {contextHolder}
-            <Space>
-                <div className="formField">
+            <div className="formGrid">
+                <div className="formField lastNameField">
                     <label>{tForm("lastName")}<br/>
                         <input
                             type="text"
@@ -111,41 +110,41 @@ const ContactForm = () => {
                         />
                     </label><br/>
                 </div>
-                    { lastName.error && lastName.touched && <p className="error">{tErrors(lastName.error)}</p> }<br/>
-                <div className="formField">
+                <div className="formField firstNameField">
                     <label>{tForm("firstName")}<br/>
                         <input
                             type="text"
                             value={firstName.value}
                             onChange={firstName.onChange}
                             placeholder="Yarelly"
-                        />
+                            />
                     </label><br/>
                 </div>
-                    { firstName.error && firstName.touched && <p className="error">{tErrors(firstName.error)}</p> }<br/>
-            </Space>
-
-            <div className="formField">
-                <label>{tForm("email")}<br/>
-                    <input
-                        type="email"
-                        value={email.value}
-                        onChange={email.onChange}
-                        placeholder={tForm("emailExample")}
-                    />
-                </label><br/>
+                { lastName.error && lastName.touched && <p className="error errorLastName">{tErrors(lastName.error)}</p> }
+                { firstName.error && firstName.touched && <p className="error errorFirstName">{tErrors(firstName.error)}</p> }
+                <div className="formField emailField">
+                    <label>{tForm("email")}<br/>
+                        <input
+                            type="email"
+                            value={email.value}
+                            onChange={email.onChange}
+                            placeholder={tForm("emailExample")}
+                            />
+                    </label>
+                </div>
+                { email.error && email.touched && <p className="error errorEmail">{tErrors(email.error)}</p> }
+                <div className="formField messageField">
+                    <label>{tForm("message")}<br/>
+                        <textarea 
+                            value={message.value}
+                            onChange={message.onChange}
+                            placeholder={tForm("messageExample")}
+                            rows={"9"}
+                            />
+                    </label>
+                </div>
+                { message.error && message.touched && <p className="error errorMessage">{tErrors(message.error)}</p> }
             </div>
-                { email.error && email.touched && <p className="error">{tErrors(email.error)}</p> }<br/>
-            <div className="formField">
-                <label>{tForm("message")}<br/>
-                    <textarea 
-                        value={message.value}
-                        onChange={message.onChange}
-                        placeholder={tForm("messageExample")}
-                    />
-                </label>
-            </div>
-                { message.error && message.touched && <p className="error">{tErrors(message.error)}</p> }<br/>
             <button disabled={!isFormValid}>{tForm("submit")}</button>
         </form>
     </div>

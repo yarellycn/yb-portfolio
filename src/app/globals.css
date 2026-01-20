@@ -115,6 +115,7 @@ p {
   justify-content: space-around;
 }
 
+/* ABOUT CONTAINER */
 .about {
   min-height: 100vh;
   display: flex;
@@ -149,17 +150,6 @@ p {
   --photo-size: clamp(180px, 18vw, 300px);
 }
 
-.aboutAvatar {
-  /* width: 25%; */
-  width: var(--photo-size);
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  border: 11px solid var(--circle-1);
-  transform: translate(-25%, -20%);
-}
-
 .aboutCard {
   width: 100%;
   min-height: 45vh;
@@ -171,13 +161,19 @@ p {
   border-radius: 60px;
 }
 
+.aboutAvatar {
+  /* width: 25%; */
+  width: var(--photo-size);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 11px solid var(--circle-1);
+  transform: translate(-25%, -20%);
+}
+
 .aboutContent {
-  padding: 50px 120px 50px 340px;
-  /* padding:
-    clamp(80px, -160px + 18.75vw, 10px)
-    clamp(40px, -92px + 11.11vw, 120px)
-    clamp(80px, -160px + 18.75vw, 10px)
-    clamp(170px, -266px + 40.28vw, 320px); */
+  /* padding: 50px 120px 50px 340px; */
   padding: 
     clamp(50px, 3vw, 80px)
     clamp(20px, 6vw, 120px)
@@ -219,6 +215,7 @@ p {
   transform: rotateX(180deg);
 }
 
+/* CONTACT CONTAINER */
 .contactContainer {
   height: 100vh;
   background-color: var(--card-background);
@@ -376,6 +373,7 @@ form button:active {
   box-shadow: 0px 0px 5px rgb(7, 55, 63);
 }
 
+/* FOOTER CONTAINER */
 .footer {
   /* height: 10vh; */
   height: 80px;
@@ -406,10 +404,7 @@ form button:active {
     left: 10%;
   }
 
-  .sunContainer {
-    justify-content: center;
-  }
-
+/* ABOUT CONTAINER */
   .aboutAvatar {
     left: 50%;
     transform: translate(-50%, -20%);
@@ -424,8 +419,6 @@ form button:active {
   }
 
   .aboutDesc {
-    font-weight: 500;
-    font-style: medium;
     /* font-size: 17px; */
   }
 }
@@ -450,6 +443,7 @@ form button:active {
     min-height: 15vh;
   }
 
+/* ABOUT CONTAINER */
   .aboutWrapper {
     min-height: 85vh;
   }
