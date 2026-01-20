@@ -15,7 +15,7 @@ const Footer = () => {
                     style={{ fontSize: '30px', fill: "rgba(0, 149, 148, 1)", display: 'inline-flex', alignItems: 'center' }}
                     className="footerIcon"
                 >
-                    <LinkedinOutlined className="iconSocial" />
+                    <LinkedinOutlined />
                 </a>
                 <a
                     href="https://github.com/yarellycn"
@@ -24,7 +24,7 @@ const Footer = () => {
                     style={{ fontSize: '30px', color: "white", display: 'inline-flex', alignItems: 'center' }}
                     className="footerIcon"
                 >
-                    <GithubOutlined className="iconSocial" />
+                    <GithubOutlined />
                 </a>
                 <a
                     href="https://instagram.com/yarellycn"
@@ -33,7 +33,7 @@ const Footer = () => {
                     style={{ fontSize: '30px', color: "white", display: 'inline-flex', alignItems: 'center' }}
                     className="footerIcon"                    
                 >
-                    <InstagramOutlined className="iconSocial" />
+                    <InstagramOutlined />
                 </a>
             </Space>
             <Space>
