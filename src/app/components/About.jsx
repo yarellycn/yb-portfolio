@@ -8,18 +8,20 @@ const About = () => {
     const t = useTranslations("About");
 
     return (
-        <section className="aboutContainer">
-            <div className="aboutContent">
+        <section className="about">
+            <div className="aboutWrapper">
                 <Space align="center" className="sunContainer">
                     <img src="/sun.png" className="aboutSun"/>
                     <img src="/sun.png" className="aboutSun"/>
                     <img src="/sun.png" className="aboutSun"/>
                 </Space>
-                <div className="aboutCardContainer">
-                    <img src="/berger-3.JPG" className="aboutPhoto"/>
+                <div className="aboutCardWrapper">
                     <div className="aboutCard">
-                        <h2 className="aboutTitle">{t("aboutTitle")}</h2>
-                        <p className="aboutDesc">{t("aboutDescription")}</p>
+                        <img src="/berger-3.JPG" className="aboutAvatar"/>
+                        <div className="aboutContent">
+                            <h2 className="aboutTitle">{t("aboutTitle")}</h2>
+                            <p className="aboutDesc">{t("aboutDescription")}</p>
+                        </div>
                     </div>
                     <img src="/about-card-bottom.png" className="aboutCardBottom"/>
                 </div>
@@ -29,7 +31,7 @@ const About = () => {
                     <img src="/sun.png" className="aboutSun"/>
                 </Space>
             </div>
-            <div className="aboutFooter">
+            <div className="aboutCutout">
                 <div className="triangle"></div>
             </div>
         </section>
