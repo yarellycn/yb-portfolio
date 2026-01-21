@@ -17,13 +17,13 @@ const About = () => {
                 </Space>
                 <div className="aboutCardWrapper">
                     <div className="aboutCard">
-                        <img src="/berger-3.JPG" className="aboutAvatar"/>
+                        <img src="/about/berger-3.JPG" className="aboutAvatar"/>
                         <div className="aboutContent">
                             <h2 className="aboutTitle">{t("aboutTitle")}</h2>
                             <p className="aboutDesc">{t("aboutDescription")}</p>
                         </div>
                     </div>
-                    <img src="/about-card-bottom.png" className="aboutCardBottom"/>
+                    <img src="/about/card-bottom.png" className="aboutCardBottom"/>
                 </div>
                 <Space align="center" justify="center" className="sunContainer">
                     <img src="/sun.png" className="aboutSun"/>
