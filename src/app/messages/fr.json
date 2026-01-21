@@ -16,6 +16,38 @@
         "aboutDescription": "Je m'appelle Yarelly, je viens du pays des llamas, du ceviche et du Machtou Pichtou. \n\nImmergée dans le monde de l'hôtellerie de luxe pendant des années, je me suis rendue compte que le rythme de l'hôtellerie ne me convenais plus. \n\nLes week-ends et jours fériés loin de la famille, ça finit par peser ! \n\nAlors… comment suis-je passée au code ? \n\nFaites défiler la page pour découvrir la suite."
     },
 
+    "Projects": {
+        "title": "Mes projets",
+
+        "cvOnline": {
+            "imgSource": "/projects/cvonline2.gif",
+            "title": "CV en ligne",
+            "year": "2024",
+            "description": "Site web avec un design responsive et un double carrousel vertical pour une navigation originale."
+        },
+
+        "jobBoardStanley": {
+            "imgSource": "/projects/stanley.gif",
+            "title": "Job Board – Stanley Jobs",
+            "year": "2024",
+            "description": "Développement d'une plateforme de job board : gestion des offres, candidatures via un formulaire dynamique, espace administrateur avec authentification et opérations CRUD."
+        },
+
+        "portfolio": {
+            "imgSource": "/projects/portfolio.gif",
+            "title": "Portfolio",
+            "year": "2024",
+            "description": "Portfolio développé afin de mettre en avant mes projets et compétences. Design ergonomique, clair et évolutif, avec téléchargement du CV intégré."
+        },
+
+        "pacman": {
+            "imgSource": "/projects/pacman.gif",
+            "title": "PacMan",
+            "year": "2024",
+            "description": "Jeu banger"
+        }
+    },
+
     "ContactForm": {
         "contactTitle": "Contactez-moi",
         "lastName": "Nom",

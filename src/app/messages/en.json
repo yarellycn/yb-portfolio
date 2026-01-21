@@ -16,6 +16,30 @@
         "aboutDescription": "My name is Yarelly, and I come from the land of llamas, ceviche, and the mysterious Macchu Picchu. \n\nAfter spending several years immersed in the world of luxury hospitality, I realized that the fast-paced rhythm just wasn't for me anymore. \n\nWeekends and holidays away from family start to take their toll after a while. \n\nSo… how did I end up writing code? \n\nScroll down to discover the story!"
     },
 
+    "Projects": {
+        "title": "My projects", 
+        "cvOnline": {
+            "imgSource": "/projects/cvonline2.gif",
+            "title": "Online CV",
+            "year": "2024",
+            "description": "Responsive website featuring a double vertical carousel for an original and engaging navigation experience."
+        },
+
+        "jobBoardStanley": {
+            "imgSource": "/projects/stanley.gif",
+            "title": "Job Board – Stanley Jobs",
+            "year": "2024",
+            "description": "Development of a job board platform: job listings management, applications via a dynamic form, admin dashboard with authentication and full CRUD operations."
+        },
+
+        "portfolio": {
+            "imgSource": "/projects/portfolio.gif",
+            "title": "Portfolio",
+            "year": "2024",
+            "description": "Portfolio website designed to showcase my projects and skills. Clean, ergonomic and scalable design, with integrated CV download."
+        }
+    },
+
     "ContactForm": {
         "contactTitle": "Get in touch",
         "lastName": "Last name",

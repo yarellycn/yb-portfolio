@@ -16,6 +16,30 @@
         "aboutDescription": "Me llamo Yarelly y vengo del país de las llamas, el ceviche y el misterioso Macchu Picchu. \n\nDespués de pasar varios años inmersa en el mundo de la hotelería de lujo, me di cuenta de que ese ritmo ya no encajaba conmigo. \n\nLos fines de semana y días festivos lejos de la familia acaban pesando con el tiempo. \n\nEntonces… ¿cómo llegué al mundo de la programación? \n\nLa historia continúa justo aquí abajo."
     },
 
+    "Projects": {
+        "title": "Mis proyectos",
+        "cvOnline": {
+            "imgSource": "/projects/cvonline2.gif",
+            "title": "CV en línea",
+            "year": "2024",
+            "description": "Sitio web responsive con un doble carrusel vertical para una navegación original y dinámica."
+        },
+
+        "jobBoardStanley": {
+            "imgSource": "/projects/stanley.gif",
+            "title": "Job Board – Stanley Jobs",
+            "year": "2024",
+            "description": "Desarrollo de una plataforma de ofertas de empleo: gestión de anuncios, candidaturas mediante un formulario dinámico y panel de administración con autenticación y operaciones CRUD."
+        },
+
+        "portfolio": {
+            "imgSource": "/projects/portfolio.gif",
+            "title": "Portfolio",
+            "year": "2024",
+            "description": "Portfolio desarrollado para mostrar mis proyectos y habilidades. Diseño claro, ergonómico y escalable, con descarga de CV integrada."
+        }
+    },
+
     "ContactForm": {
         "contactTitle": "Contáctame",
         "lastName": "Apellido",

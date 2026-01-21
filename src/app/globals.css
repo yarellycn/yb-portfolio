@@ -8,11 +8,14 @@
   --hero-background: rgba(248, 184, 157, 1);
   --about-background: rgba(186, 90, 49, 1);
   --circle-1: rgba(228, 197, 116, 1);
+  --projects-background: rgba(237, 132, 86, 1);
+  --project-card-background: rgba(252, 243, 230, 1);
+  --card-subtitle-color: rgba(139, 100, 83, 1);
   --card-background: rgba(252, 243, 230, 1);
   --journey-background: rgba(0, 149, 148, 1);
 }
 
-body, button, input, textarea, .ant-typography, .ant-btn, .ant-btn span {
+body, button, input, textarea, .ant-typography, .ant-space, .ant-btn, .ant-btn span {
   font-family: 'Fredoka', sans-serif;
   color: var(--text-color);
 }
@@ -50,6 +53,19 @@ h1 {
   font-weight: 700;
   font-style: bold;
   font-size: 92px;
+}
+
+h2 {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 50px;
+  color: white;
+}
+
+h3 {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
 }
 
 p {
@@ -183,6 +199,7 @@ p {
 
 .aboutTitle {
   /* font-size: 38px; */
+  color: var(--text-color);
   font-size: clamp(2.8125rem, 2.8706rem + -0.3097vw, 2.375rem);
 }
 
@@ -215,6 +232,71 @@ p {
   transform: rotateX(180deg);
 }
 
+/* PROJECTS CONTAINER */
+.projects {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--projects-background);
+}
+
+.projectsHeader {
+  /* height: 130px; */
+  height: 12vh;
+  /* background: green; */
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding-left: 200px;
+}
+
+.projectsGrid {
+  min-height: 88vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+  /* grid-template-areas: 
+    "4 3"
+    "2 1"; */
+  justify-content: center;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+}
+
+/* .proj1 {
+  grid-area: 1;
+}
+
+.proj2 {
+  grid-area: 2;
+}
+
+.proj2 {
+  grid-area: 3;
+} */
+
+.cardWrapper {
+  width: 15vw;
+  border-radius: 60px;
+  background: var(--project-card-background);
+  padding: 70px;
+  text-justify: inter-word;
+}
+
+article img {
+  width: 100%;
+}
+
+article p {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+article .yearDescription {
+  font-weight: 400;
+  color:var(--card-subtitle-color);
+}
+
 /* CONTACT CONTAINER */
 .contactContainer {
   height: 100vh;
@@ -243,6 +325,10 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.formTitle {
+  color: var(--text-color);
 }
 
 form p {
@@ -380,11 +466,7 @@ form button:active {
   background: var(--about-background);
 }
 
-.footerIcon {
-  color: white;
-}
-
-.footerText {
+.footerIcon, .footerText {
   color: white;
 }
 
