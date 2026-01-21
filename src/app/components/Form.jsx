@@ -1,6 +1,6 @@
 "use client";
 
-import { notification, Space, Row, Flex } from 'antd';
+import { notification } from 'antd';
 import { useTranslations } from "next-intl";
 import { useFormField } from '../hooks/useFormField';
 import emailjs from '@emailjs/browser';
@@ -96,7 +96,7 @@ const ContactForm = () => {
 
     return (
     <div className="formContainer">
-        <h2>{tForm("contactTitle")}</h2>
+        <h2 className="formTitle">{tForm("contactTitle")}</h2>
         <form onSubmit={handleSubmit}>
             {contextHolder}
             <div className="formGrid">
