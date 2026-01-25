@@ -17,7 +17,7 @@ const About = () => {
                 </Space>
                 <div className="aboutCardWrapper">
                     <div className="aboutCard">
-                        <img src="/about/berger-3.JPG" className="aboutAvatar"/>
+                        <img src="/about/berger.JPG" className="aboutAvatar"/>
                         <div className="aboutContent">
                             <h2 className="aboutTitle">{t("aboutTitle")}</h2>
                             <p className="aboutDesc">{t("aboutDescription")}</p>

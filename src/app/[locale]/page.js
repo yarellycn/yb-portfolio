@@ -3,6 +3,7 @@ import Splitter from "../components/Splitter";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Projects from "../components/Projects";
+import Journey from "../components/Journey";
 
 export default function Main() {
   return (
@@ -10,6 +11,7 @@ export default function Main() {
       <Home />
       <Splitter />
       <About />
+      <Journey />
       <Projects />
       <Contact />
     </div>

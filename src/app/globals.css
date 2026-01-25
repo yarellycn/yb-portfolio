@@ -168,7 +168,6 @@ p {
 
 .aboutCard {
   width: 100%;
-  min-height: 45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -238,6 +237,7 @@ p {
   display: flex;
   flex-direction: column;
   background: var(--projects-background);
+  justify-content: center;
 }
 
 .projectsHeader {
@@ -250,51 +250,89 @@ p {
   padding-left: 200px;
 }
 
-.projectsGrid {
-  min-height: 88vh;
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 100px;
-  /* grid-template-areas: 
-    "4 3"
-    "2 1"; */
+.mySwiper {
+  /* background-color: rgba(75, 159, 172, 0.203); */
+  /* height: 70%; */
+  width: 90%;
+  display: flex;
+  align-self: center;
   justify-content: center;
-  /* margin-top: 50px;
-  margin-bottom: 50px; */
 }
-
-/* .proj1 {
-  grid-area: 1;
-}
-
-.proj2 {
-  grid-area: 2;
-}
-
-.proj2 {
-  grid-area: 3;
-} */
 
 .cardWrapper {
-  width: 15vw;
   border-radius: 60px;
   background: var(--project-card-background);
-  padding: 70px;
-  text-justify: inter-word;
-}
-
-article img {
-  width: 100%;
-}
-
-article p {
-  font-weight: 500;
-  font-size: 15px;
+  padding: 50px;
+  min-height: 450px;
+  width: 500px;
+  box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 article .yearDescription {
   font-weight: 400;
-  color:var(--card-subtitle-color);
+  color: var(--card-subtitle-color);
+}
+
+article p {
+  font-weight: 470;
+  font-size: 17px;
+}
+
+/* JOURNEY CONTAINER */
+.journey {
+  min-height: 100vh;
+  background: var(--journey-background);
+}
+
+.journeyCard {
+  width: 600px;
+  /* width: 30vw; */
+  height: auto;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: var(--project-card-background);
+  padding: 20px;
+  box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+
+.journeyContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.journeyAvatar {
+  height: 200px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 11px solid var(--circle-1);
+}
+
+.journeyCard.right .journeyAvatar {
+  order: 2;
+  transform: translate(45%);
+}
+
+.journeyCard.right .journeyContent {
+  order: 1;
+  padding: 30px 0px 30px 40px;
+}
+
+.journeyCard.left .journeyAvatar {
+  order: 1;
+  transform: translate(-45%);
+}
+
+.journeyCard.left .journeyContent {
+  order: 2;
+  padding: 30px 50px 30px 0px;
 }
 
 /* CONTACT CONTAINER */
@@ -485,6 +523,24 @@ form button:active {
     top: -3%;
     left: 10%;
   }
+
+  .journey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .journeyCard {
+    width: 600px;
+    width: 75vw;
+    gap: 10px;
+  }
+
+  .journeyCard.right .journeyAvatar {
+    order: 2;
+    transform: translate(20%);
+  }
+
 
 /* ABOUT CONTAINER */
   .aboutAvatar {

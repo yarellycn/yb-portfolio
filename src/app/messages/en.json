@@ -21,22 +21,29 @@
         "cvOnline": {
             "imgSource": "/projects/cvonline2.gif",
             "title": "Online CV",
-            "year": "2024",
+            "year": "2025",
             "description": "Responsive website featuring a double vertical carousel for an original and engaging navigation experience."
         },
 
         "jobBoardStanley": {
             "imgSource": "/projects/stanley.gif",
             "title": "Job Board – Stanley Jobs",
-            "year": "2024",
+            "year": "2025",
             "description": "Development of a job board platform: job listings management, applications via a dynamic form, admin dashboard with authentication and full CRUD operations."
         },
 
         "portfolio": {
             "imgSource": "/projects/portfolio.gif",
             "title": "Portfolio",
-            "year": "2024",
+            "year": "2025",
             "description": "Portfolio website designed to showcase my projects and skills. Clean, ergonomic and scalable design, with integrated CV download."
+        },
+
+        "pacman": {
+            "imgSource": "/projects/pacman.gif",
+            "title": "PacMan",
+            "year": "2025",
+            "description": "Jeu banger"
         }
     },
 

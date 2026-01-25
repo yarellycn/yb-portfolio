@@ -16,34 +16,50 @@
         "aboutDescription": "Je m'appelle Yarelly, je viens du pays des llamas, du ceviche et du Machtou Pichtou. \n\nImmergée dans le monde de l'hôtellerie de luxe pendant des années, je me suis rendue compte que le rythme de l'hôtellerie ne me convenais plus. \n\nLes week-ends et jours fériés loin de la famille, ça finit par peser ! \n\nAlors… comment suis-je passée au code ? \n\nFaites défiler la page pour découvrir la suite."
     },
 
+    "Journey": {
+        "title": "Mon parcours",
+        "2010": {
+            "imgSource": "/journey/2010(1).PNG",
+            "title":"Premier contact avec l'informatique",
+            "year": "2010",
+            "description": "À l'école primaire, j'ai appris à coder mes premières balises HTML. On nous a appris les bases, mais je suis allée plus loin: je me suis amusée à faire un site web pour montrer les photos de vacances en famille."
+        },
+        "2011": {
+            "imgSource": "/journey/2014.jpg",
+            "title":"Études universitaires à Lima, Pérou",
+            "year": "2014 - 2019",
+            "description": "Formation en tourisme, management et gastronomie orientée gestion de projets, planification stratégique et analyse de marché. Travail sur la viabilité économique, les processus et le marketing, avec usage d'outils technologiques. Développement de compétences en modélisation, organisation de systèmes, communication professionnelle et coordination d'équipes."
+        }
+    },
+
     "Projects": {
         "title": "Mes projets",
 
         "cvOnline": {
             "imgSource": "/projects/cvonline2.gif",
             "title": "CV en ligne",
-            "year": "2024",
+            "year": "2025",
             "description": "Site web avec un design responsive et un double carrousel vertical pour une navigation originale."
         },
 
         "jobBoardStanley": {
             "imgSource": "/projects/stanley.gif",
             "title": "Job Board – Stanley Jobs",
-            "year": "2024",
+            "year": "2025",
             "description": "Développement d'une plateforme de job board : gestion des offres, candidatures via un formulaire dynamique, espace administrateur avec authentification et opérations CRUD."
         },
 
         "portfolio": {
             "imgSource": "/projects/portfolio.gif",
             "title": "Portfolio",
-            "year": "2024",
+            "year": "2025",
             "description": "Portfolio développé afin de mettre en avant mes projets et compétences. Design ergonomique, clair et évolutif, avec téléchargement du CV intégré."
         },
 
         "pacman": {
             "imgSource": "/projects/pacman.gif",
             "title": "PacMan",
-            "year": "2024",
+            "year": "2025",
             "description": "Jeu banger"
         }
     },
