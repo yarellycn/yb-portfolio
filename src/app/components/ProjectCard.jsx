@@ -10,8 +10,10 @@ const ProjectCard = ({projectKey}) => {
     return (
         <article className="cardWrapper">
             <img src={t("imgSource")}/>
-            <h3>{t("title")}</h3>
-            <p className="yearDescription">{t("year")}</p>
+            <div>
+                <h3>{t("title")}</h3>
+                <p className="yearDescription">{t("year")}</p>
+            </div>
             <p>{t("description")}</p>
         </article> 
     )

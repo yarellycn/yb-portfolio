@@ -1,9 +1,13 @@
 "use client";
 
 import React from 'react';
-import { Space } from "antd";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Keyboard, Pagination, Navigation } from 'swiper/modules';
 import { useTranslations } from "next-intl";
 import ProjectCard from './ProjectCard';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 
 const Projects = () => {
@@ -20,11 +24,25 @@ const Projects = () => {
             <div className="projectsHeader">
                 <h2 className='containerTitle'>{t("title")}</h2>
             </div>
-            <div className="projectsGrid">
+            <Swiper
+                className="mySwiper" 
+                slidesPerView={3}
+                spaceBetween={0}
+                keyboard={{
+                    enabled: true,
+                }}
+                pagination={{
+                    clickable: true,
+                }}
+                navigation={true} 
+                modules={[Keyboard, Pagination, Navigation]}
+            >
                 {projectKeys.map((key) => (
-                    <ProjectCard key={key} projectKey={key}/>
+                    <SwiperSlide>
+                        <ProjectCard key={key} projectKey={key}/>
+                    </SwiperSlide>
                 ))}
-            </div>
+            </Swiper>
         </section>
     )
 }
