@@ -16,6 +16,51 @@
         "aboutDescription": "My name is Yarelly, and I come from the land of llamas, ceviche, and the mysterious Macchu Picchu. \n\nAfter spending several years immersed in the world of luxury hospitality, I realized that the fast-paced rhythm just wasn't for me anymore. \n\nWeekends and holidays away from family start to take their toll after a while. \n\nSo… how did I end up writing code? \n\nScroll down to discover the story!"
     },
 
+    "Journey": {
+        "title": "My Journey",
+        "2010": {
+            "imgSource": "/journey/2010.PNG",
+            "title":"First Contact with Code",
+            "year": "2010",
+            "description": "In primary school, I learned to code my first HTML tags. We were taught the basics, but I went further: I had fun creating a website to showcase my family's holiday photos."
+        },
+
+        "2014": {
+            "imgSource": "/journey/2014.jpg",
+            "title":"University Studies in Lima, Peru",
+            "year": "2014 - 2019",
+            "description": "I studied tourism, management, and gastronomy with a strong focus on project management, strategic planning, and market analysis. I worked on economic viability, processes, and marketing using technological tools, while developing skills in project structuring, professional communication, and team coordination."
+        },
+
+        "2019": {
+            "imgSource": "/journey/2019.jpg",
+            "title": "Graduation in Tourism, Hospitality & Gastronomy",
+            "year": "2019",
+            "description": "I earned my degree, recognized by ERIC NARIC and evaluated at level 6 of the European Qualifications Framework. Thanks to my C1-level English and French and B1-level Italian, I was able to enter the international job market quickly."
+        },
+
+        "2020": {
+            "imgSource": "/journey/2020.jpeg",
+            "title": "Language Immersions & Moving to France",
+            "year": "2020 - 2022",
+            "description": "Between 2019 and 2020, I did several language immersion stays in the south of France, improving my French and discovering the local culture. Fascinated by the region, I chose to settle there in 2022, enhancing my international perspective and adaptability."
+        },
+        
+        "2022": {
+            "imgSource": "/journey/2022.jpg",
+            "title": "InterContinental Marseille – Hôtel Dieu",
+            "year": "2022 - 2025",
+            "description": "I joined this iconic 5-star hotel in Marseille, where I developed cross-functional skills: teamwork, problem-solving, time management, and working under pressure.\n[Click here to see what my former managers say about me!]"
+        },
+
+        "2025": {
+            "imgSource": "/journey/2025(1).jpg",
+            "title": "Starting my studies at Epitech Montpellier",
+            "year": "2025",
+            "description": "I reconnected with my childhood passion for the web by starting my Master of Science at Epitech. I was already creating websites at age 10, and now, thanks to my network in IT, I'm rapidly developing my skills to turn this dream into a career."
+        }
+    },
+
     "Projects": {
         "title": "My projects", 
         "cvOnline": {
