@@ -19,42 +19,42 @@
     "Journey": {
         "title": "Mi Trayectoria",
         "2010": {
-            "imgSource": "/journey/2010.PNG",
+            "imgSource": "journey/2010.PNG",
             "title":"Primer contacto con la informática",
             "year": "2010",
             "description": "En la escuela primaria, aprendí a programar mis primeras etiquetas HTML. Nos enseñaron lo básico, pero fui más allá: me divertí creando un sitio web para mostrar las fotos de las vacaciones familiares."
         },
 
         "2014": {
-            "imgSource": "/journey/2014.jpg",
+            "imgSource": "journey/2014.jpg",
             "title":"Estudios universitarios en Lima, Perú",
             "year": "2014 - 2019",
             "description": "Estudié turismo, gestión y gastronomía con un enfoque fuerte en gestión de proyectos, planificación estratégica y análisis de mercado. Trabajé en la viabilidad económica, los procesos y el marketing usando herramientas tecnológicas, mientras desarrollaba habilidades en estructuración de proyectos, comunicación profesional y coordinación de equipos."
         },
 
         "2019": {
-            "imgSource": "/journey/2019.jpg",
+            "imgSource": "journey/2019.jpg",
             "title": "Graduación en Turismo, Hotelería y Gastronomía",
             "year": "2019",
             "description": "Obtuve mi título, reconocido por ERIC NARIC y evaluado en el nivel 6 del Marco Europeo de Cualificaciones. Gracias a mi inglés y francés nivel C1 y mi italiano nivel B1, pude incorporarme rápidamente al mercado laboral internacional."
         },
 
         "2020": {
-            "imgSource": "/journey/2020.jpeg",
+            "imgSource": "journey/2020.jpeg",
             "title": "Estancias lingüísticas e instalación en Francia",
             "year": "2020 - 2022",
             "description": "Entre 2019 y 2020, realicé varias estancias lingüísticas en el sur de Francia, perfeccionando mi francés y descubriendo la cultura local. Fascinada por la región, elegí instalarme allí en 2022, fortaleciendo mi apertura internacional y capacidad de adaptación."
         },
         
         "2022": {
-            "imgSource": "/journey/2022.jpg",
+            "imgSource": "journey/2022.jpg",
             "title": "InterContinental Marseille – Hôtel Dieu",
             "year": "2022 - 2025",
             "description": "Me uní a este emblemático hotel 5 estrellas en Marsella, donde desarrollé habilidades transversales: trabajo en equipo, resolución de problemas, organización del tiempo y trabajo bajo presión.\n[¡Haz clic aquí para ver lo que mis antiguos jefes piensan de mí!]"
         },
 
         "2025": {
-            "imgSource": "/journey/2025(1).jpg",
+            "imgSource": "journey/2025(1).jpg",
             "title": "Inicio de mis estudios en Epitech Montpellier",
             "year": "2025",
             "description": "Volví a conectar con mi pasión infantil por la web al comenzar mi Master of Science en Epitech. Ya creaba sitios web a los 10 años, y ahora, gracias a mi entorno en informática, desarrollo rápidamente mis habilidades para convertir este sueño en una carrera."
@@ -64,28 +64,28 @@
     "Projects": {
         "title": "Mis proyectos",
         "cvOnline": {
-            "imgSource": "/projects/cvonline2.gif",
+            "imgSource": "projects/cvonline2.gif",
             "title": "CV en línea",
             "year": "2025",
             "description": "Sitio web responsive con un doble carrusel vertical para una navegación original y dinámica."
         },
 
         "jobBoardStanley": {
-            "imgSource": "/projects/stanley.gif",
+            "imgSource": "projects/stanley.gif",
             "title": "Job Board – Stanley Jobs",
             "year": "2025",
             "description": "Desarrollo de una plataforma de ofertas de empleo: gestión de anuncios, candidaturas mediante un formulario dinámico y panel de administración con autenticación y operaciones CRUD."
         },
 
         "portfolio": {
-            "imgSource": "/projects/portfolio.gif",
+            "imgSource": "projects/portfolio.gif",
             "title": "Portfolio",
             "year": "2025",
             "description": "Portfolio desarrollado para mostrar mis proyectos y habilidades. Diseño claro, ergonómico y escalable, con descarga de CV integrada."
         },
 
         "pacman": {
-            "imgSource": "/projects/pacman.gif",
+            "imgSource": "projects/pacman.gif",
             "title": "PacMan",
             "year": "2025",
             "description": "En proceso."

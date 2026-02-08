@@ -12,6 +12,17 @@ const messagesMap = {
   es: esMessages
 };
 
+export const dynamic = "force-static";
+
+// Ajout pour static export
+export async function generateStaticParams() {
+  return [
+    { locale: 'en' },
+    { locale: 'fr' },
+    { locale: 'es' },
+  ];
+}
+
 export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
 

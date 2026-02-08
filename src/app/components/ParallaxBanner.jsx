@@ -10,19 +10,19 @@ const ParallaxHero = () => {
     <section className="hero">
       <Parallax speed={-12}>
         <img
-          src="/hero/mountain-back.png"
+          src="hero/mountain-back.png"
           className="mountainBack"
         />
       </Parallax>
 
       <Parallax speed={-14}>
         <img
-          src="/hero/mountain-front.png"
+          src="hero/mountain-front.png"
           className="mountainFront"
         />
       </Parallax>
 
-      <img src="/sun.png" className="heroSun"></img>
+      <img src="sun.png" className="heroSun"></img>
 
       <Parallax speed={-5}>
         <div className="heroText">

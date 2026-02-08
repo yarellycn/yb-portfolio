@@ -1,0 +1,42 @@
+name: Deploy Next.js to GitHub Pages
+
+# Déclenche le workflow à chaque push sur main
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Récupère le code du repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ Installe Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      # 3️⃣ Installe les dépendances
+      - name: Install dependencies
+        run: npm ci
+
+      # 4️⃣ Build Next.js (static export)
+      - name: Build Next.js
+        run: npm run build
+
+      - name: Prepare static site
+        run: npm run export-static
+
+      # 5️⃣ Déployer sur GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          publish_dir: ./out
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

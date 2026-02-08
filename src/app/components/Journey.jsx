@@ -23,8 +23,8 @@ const Journey = () => {
             </div>
             <div className="journeyWrapper">
                 <div className="journeyBackground"> 
-                <img src="/journey/peru.png" className="peruBackground"/>
-                <img src="/journey/france.png" className="franceBackground" />
+                <img src="journey/peru.png" className="peruBackground"/>
+                <img src="journey/france.png" className="franceBackground" />
                 </div>
                 <div className="journeyCardWrapper">
                 {journeyKeys.map((key, index) => (
