@@ -6,10 +6,10 @@ const nextConfig = {
   // Supprime turbo
   // turbo: {},
 
-  // Active le static export
-  output: 'export',
-  trailingSlash: true,
-  basePath: '/yb-portfolio',
+  // Nécessaire pour l'export gh-pages
+  // output: 'export',
+  // trailingSlash: true,
+  // basePath: '/yb-portfolio',
 };
 
 module.exports = withNextIntl(nextConfig);
