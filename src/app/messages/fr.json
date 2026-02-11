@@ -19,42 +19,42 @@
     "Journey": {
         "title": "Mon parcours",
         "2010": {
-            "imgSource": "/journey/2010.PNG",
+            "imgSource": "journey/2010.PNG",
             "title":"Premier contact avec l'informatique",
             "year": "2010",
             "description": "À l'école primaire, j'ai appris à coder mes premières balises HTML. On nous a appris les bases, mais je suis allée plus loin: je me suis amusée à faire un site web pour montrer les photos de vacances en famille."
         },
 
         "2014": {
-            "imgSource": "/journey/2014.jpg",
+            "imgSource": "journey/2014.jpg",
             "title":"Études universitaires à Lima, Pérou",
             "year": "2014 - 2019",
             "description": "Je me forme en tourisme, management et gastronomie avec une forte orientation en gestion de projets, planification stratégique et analyse de marché. Je travaille sur la viabilité économique, les processus et le marketing en utilisant des outils technologiques, tout en développant des compétences en structuration de projets, communication professionnelle et coordination d'équipes."
         },
 
         "2019": {
-            "imgSource": "/journey/2019.jpg",
+            "imgSource": "journey/2019.jpg",
             "title": "Obtention du diplôme en Tourisme, Hôtellerie et Gastronomie",
             "year": "2019",
             "description": "J'ai obtenu mon diplôme, reconnu par ERIC NARIC et évalué au niveau 6 du Cadre européen des certifications (CEC). Grâce à mon anglais et français niveau C1 et mon italien niveau B1, j'ai pu m'insérer rapidement sur le marché professionnel à l'international."
         },
 
         "2020": {
-            "imgSource": "/journey/2020.jpeg",
+            "imgSource": "journey/2020.jpeg",
             "title": "Séjours linguistiques et installation en France",
             "year": "2020 - 2022",
             "description": "Entre 2019 et 2020, j'ai réalisé plusieurs séjours linguistiques dans le sud de la France, perfectionnant mon français et découvrant la culture locale. Fascinée par la région, j'ai choisi de m'y installer en 2022, renforçant mon ouverture internationale et ma capacité à m'adapter à de nouveaux environnements."
         },
         
         "2022": {
-            "imgSource": "/journey/2022.jpg",
+            "imgSource": "journey/2022.jpg",
             "title": "InterContinental Marseille – Hôtel Dieu",
             "year": "2022 - 2025",
             "description": "J'ai rejoint cet hôtel 5 étoiles emblématique de Marseille, où j'ai développé des compétences transversales : travail en équipe, gestion des problèmes, organisation du temps et travail sous pression. \n[Cliquez ici pour découvrir ce que mes anciens responsables pensent de moi !]"
         },
 
         "2025": {
-            "imgSource": "/journey/2025(1).jpg",
+            "imgSource": "journey/2025(1).jpg",
             "title": "Début de mes études à Epitech Montpellier",
             "year": "2025",
             "description": "J'ai reconnecté avec ma passion d'enfance pour le web en entamant mon Master of Science à Epitech. Déjà à 10 ans je créais des sites, et aujourd'hui, grâce à mon entourage dans l'informatique, je développe rapidement mes compétences pour transformer ce rêve en carrière."
@@ -65,28 +65,28 @@
         "title": "Mes projets",
 
         "cvOnline": {
-            "imgSource": "/projects/cvonline2.gif",
+            "imgSource": "projects/cvonline2.gif",
             "title": "CV en ligne",
             "year": "2025",
             "description": "Site web avec un design responsive et un double carrousel vertical pour une navigation originale."
         },
 
         "jobBoardStanley": {
-            "imgSource": "/projects/stanley.gif",
+            "imgSource": "projects/stanley.gif",
             "title": "Job Board – Stanley Jobs",
             "year": "2025",
             "description": "Développement d'une plateforme de job board : gestion des offres, candidatures via un formulaire dynamique, espace administrateur avec authentification et opérations CRUD."
         },
 
         "portfolio": {
-            "imgSource": "/projects/portfolio.gif",
+            "imgSource": "projects/portfolio.gif",
             "title": "Portfolio",
             "year": "2025",
             "description": "Portfolio développé afin de mettre en avant mes projets et compétences. Design ergonomique, clair et évolutif, avec téléchargement du CV intégré."
         },
 
         "pacman": {
-            "imgSource": "/projects/pacman.gif",
+            "imgSource": "projects/pacman.gif",
             "title": "PacMan",
             "year": "2025",
             "description": "En cours."
