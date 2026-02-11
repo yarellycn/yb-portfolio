@@ -33,8 +33,13 @@ const Projects = () => {
                 }}
                 pagination={{
                     clickable: true,
+                     el: ".custom-pagination",
                 }}
-                navigation={true} 
+                navigation={{
+                    true,
+                    nextEl: ".custom-next",
+                    prevEl: ".custom-prev"
+                }}
                 modules={[Keyboard, Pagination, Navigation]}
             >
                 {projectKeys.map((key) => (
@@ -43,6 +48,9 @@ const Projects = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
+            <div className="custom-pagination"></div>
+            <img src="button-next" className=".custom-next"></img>
+            <img></img>
         </section>
     )
 }

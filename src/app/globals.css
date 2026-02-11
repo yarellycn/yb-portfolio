@@ -246,7 +246,7 @@ p {
   /* background: green; */
   display: flex;
   justify-content: start;
-  align-items: end;
+  align-items: start;
   padding-left: 200px;
 }
 
@@ -257,6 +257,15 @@ p {
   display: flex;
   align-self: center;
   justify-content: center;
+}
+
+.custom-pagination {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  background-color: var(--project-card-background);
 }
 
 .cardWrapper {
