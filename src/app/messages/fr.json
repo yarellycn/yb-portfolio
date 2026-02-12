@@ -67,29 +67,36 @@
         "cvOnline": {
             "imgSource": "projects/cvonline2.gif",
             "title": "CV en ligne",
-            "year": "2025",
+            "year": "Septembre 2025",
             "description": "Site web avec un design responsive et un double carrousel vertical pour une navigation originale."
         },
 
         "jobBoardStanley": {
             "imgSource": "projects/stanley.gif",
             "title": "Job Board – Stanley Jobs",
-            "year": "2025",
+            "year": "Octobre 2025",
             "description": "Développement d'une plateforme de job board : gestion des offres, candidatures via un formulaire dynamique, espace administrateur avec authentification et opérations CRUD."
         },
 
         "portfolio": {
             "imgSource": "projects/portfolio.gif",
             "title": "Portfolio",
-            "year": "2025",
+            "year": "Octobre 2025",
             "description": "Portfolio développé afin de mettre en avant mes projets et compétences. Design ergonomique, clair et évolutif, avec téléchargement du CV intégré."
         },
 
         "pacman": {
             "imgSource": "projects/pacman.gif",
             "title": "PacMan",
-            "year": "2025",
-            "description": "En cours."
+            "year": "Novembre 2025",
+            "description": "Jeu 2D inspiré de Pac-Man. Implémentation des mécaniques principales : collisions, score, IA des ennemis et interface utilisateur dynamique."
+        },
+
+        "droxyd": {
+            "imgSource": "projects/pacman.gif",
+            "title": "Droxyd",
+            "year": "Janvier 2026",
+            "description": "Site web inspiré de Discord avec gestion complète de l'authentification, serveurs, rôles, canaux et messagerie via API REST sécurisée."
         }
     },
 

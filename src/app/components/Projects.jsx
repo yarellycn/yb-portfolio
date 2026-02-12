@@ -13,10 +13,11 @@ import 'swiper/css/navigation';
 const Projects = () => {
     const t = useTranslations("Projects");
     const projectKeys = [
-        "cvOnline",
-        "jobBoardStanley",
+        "droxyd",
+        "pacman",
         "portfolio",
-        "pacman"
+        "jobBoardStanley",
+        "cvOnline",
     ];
 
     return (
@@ -24,17 +25,30 @@ const Projects = () => {
             <div className="projectsHeader">
                 <h2 className='containerTitle'>{t("title")}</h2>
             </div>
+            {/* <div className="swiperContainer"> */}
             <Swiper
                 className="mySwiper" 
-                slidesPerView={3}
-                spaceBetween={0}
+                spaceBetween={15}
+                slidesPerView={1}
+                // slidesOffsetBefore={250}
+                // slidesOffsetAfter={500}
+                breakpoints={{
+                    768: {
+                    slidesPerView: 'auto',
+                    spaceBetween: 20,
+                    }
+                }}
                 keyboard={{
                     enabled: true,
                 }}
                 pagination={{
                     clickable: true,
+                    el: ".custom-pagination",
                 }}
-                navigation={true} 
+                navigation={{
+                    nextEl: ".custom-next",
+                    prevEl: ".custom-prev"
+                }}
                 modules={[Keyboard, Pagination, Navigation]}
             >
                 {projectKeys.map((key) => (
@@ -43,6 +57,12 @@ const Projects = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
+            {/* </div> */}
+            <div className="carousel-controls">
+            <img src="projects/button-back.png" className="custom-prev"></img>
+            <div className="custom-pagination"></div>
+            <img src="projects/button-next.png" className="custom-next"></img>
+            </div>
         </section>
     )
 }
