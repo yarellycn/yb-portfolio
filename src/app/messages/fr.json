@@ -93,8 +93,8 @@
         },
 
         "droxyd": {
-            "imgSource": "projects/pacman.gif",
-            "title": "Droxyd",
+            "imgSource": "projects/droxyde.gif",
+            "title": "Droxyde",
             "year": "Janvier 2026",
             "description": "Site web inspiré de Discord avec gestion complète de l'authentification, serveurs, rôles, canaux et messagerie via API REST sécurisée."
         }

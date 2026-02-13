@@ -30,12 +30,16 @@ const Projects = () => {
                 className="mySwiper" 
                 spaceBetween={15}
                 slidesPerView={1}
-                // slidesOffsetBefore={250}
-                // slidesOffsetAfter={500}
+                slidesOffsetBefore={10}
+                slidesOffsetAfter={10}
                 breakpoints={{
                     768: {
+                    slidesOffsetBefore: 50,
+                    slidesOffsetAfter: 50,
                     slidesPerView: 'auto',
                     spaceBetween: 20,
+                    centeredSlides: true,
+                    initialSlide: 1,
                     }
                 }}
                 keyboard={{
