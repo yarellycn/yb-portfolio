@@ -426,7 +426,6 @@ article p {
   font-size: 17px;
 }
 
-
 /* CONTACT CONTAINER */
 .contactContainer {
   height: 100vh;
@@ -594,13 +593,17 @@ form button:active {
 /* FOOTER */
 .footer {
   background: var(--about-background);
-  padding: 20px;
+  padding: clamp(10px, 1.5vmin, 20px);
 }
 
 .footerIcon,
 .footerText {
   color: white;
-  font-size: 20px;
+  font-size: clamp(15px, 2vh, 20px);
+}
+
+.footerIcon svg {
+  font-size: clamp(25px, 2.5vmin, 30px);
 }
 
 /* TABLET */
