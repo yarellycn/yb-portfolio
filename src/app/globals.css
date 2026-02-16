@@ -593,9 +593,8 @@ form button:active {
 
 /* FOOTER */
 .footer {
-  height: 80px;
   background: var(--about-background);
-  padding: 0.9vh;
+  padding: 20px;
 }
 
 .footerIcon,

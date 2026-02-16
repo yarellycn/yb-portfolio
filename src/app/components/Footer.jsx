@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Flex, Space, ConfigProvider } from "antd";
-
 import { GithubOutlined, LinkedinOutlined, InstagramOutlined } from '@ant-design/icons';
 
 const Footer = () => {
