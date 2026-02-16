@@ -1,11 +1,20 @@
 "use client";
 
 import React from 'react';
-import { Flex, Space } from "antd";
+import { Flex, Space, ConfigProvider } from "antd";
+
 import { GithubOutlined, LinkedinOutlined, InstagramOutlined } from '@ant-design/icons';
 
 const Footer = () => {
     return (
+        <ConfigProvider
+            theme={{
+                token: {
+                    padding: 50,
+                }
+            }}
+        >
+    
         <Flex justify="center" align="center" vertical className="footer">
             <Space>
                 <a
@@ -40,6 +49,7 @@ const Footer = () => {
                 <p className="footerText">© Yarelly Berger | 2025</p>
             </Space>
         </Flex>
+        </ConfigProvider>
     )
 }
 
