@@ -147,6 +147,7 @@ const ContactForm = () => {
             </div>
             <button disabled={!isFormValid}>{tForm("submit")}</button>
         </form>
+        <img src="contact/contact-llama.png" className="contactLlama"/>
     </div>
     );
     };

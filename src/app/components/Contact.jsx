@@ -9,7 +9,8 @@ const Contact = () => {
     const t = useTranslations("Contact");
 
     return (
-        <section className="contactContainer">
+        <section className="contact">
+            {/* <img src="contact/contact-deco.png" className="contactDeco"/> */}
             <ContactForm />
             <Footer />
         </section>
