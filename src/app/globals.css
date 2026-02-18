@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --text-color: rgba(87, 38, 55, 1);
   --title-color: rgba(117, 40, 8, 1);
@@ -30,12 +34,11 @@ textarea,
 h1 {
   color: var(--title-color);
   font-weight: 700;
-  font-size: 92px;
+  font-size: clamp(52px, 5vw, 92px);
 }
 
 h2 {
   font-weight: 700;
-  /* font-size: 50px; */
   font-size: clamp(40px, 3vw, 50px);
   color: white;
 }
@@ -55,15 +58,14 @@ p {
 /* NAVBAR */
 .navBar {
   height: 12vh;
-  /* min-height: 10vh; */
+  min-height: 130px;
 }
 
 .navbarButton {
   font-weight: 500;
-  font-style: medium;
-  /* font-size: 22px; */
-  font-size: 16.5pt;
-  width: 200px;
+  font-size: clamp(18px, 2vw, 25px);
+  margin: 0 clamp(0px, 3vw, 50px);
+  padding: 0;
 }
 
 /* HERO */
@@ -634,10 +636,6 @@ form button:active {
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
-  h1 {
-    font-size: 72px;
-  }
-
   h2 {
     text-align: center;
   }
@@ -729,10 +727,6 @@ form button:active {
 
 /* PHONE */
 @media (max-width: 767px) {
-  h1 {
-    font-size: 52px;
-  }
-
   h2 {
     text-align: center;
   }
@@ -752,10 +746,6 @@ form button:active {
   }
 
   /* ABOUT CONTAINER */
-  .mySwiper .swiper-slide {
-    width: 100%;
-  }
-
   .aboutWrapper {
     min-height: 85vh;
   }
@@ -786,7 +776,6 @@ form button:active {
 
   .aboutTitle {
     /* font-size: 45px; */
-    /* padding: 0 15% 20; */
   }
 
   .aboutDesc {
@@ -845,6 +834,11 @@ form button:active {
 
   .journeyCardWrapper {
     gap: 150px;
+  }
+
+  /* PROJECTS CONTAINER */
+  .mySwiper .swiper-slide {
+    width: 100%;
   }
 
   /* CONTACT CONTAINER */

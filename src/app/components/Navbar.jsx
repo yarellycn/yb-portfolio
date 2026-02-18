@@ -39,17 +39,19 @@ const NavBar = () => {
             theme={{
                 components: {
                     Button: {
-                        contentFontSize: 14.5,
-                        textHoverBg: "rgba(5, 212, 244, 1)",
+                        textHoverBg: "rgb(163, 31, 92)",
                     },
+                    Dropdown: {
+                        fontSize: 18,
+                    }
                 },
             }}
             >
             <Row justify="end" align="center" className="navBar">
                 <Space align="center">
-                    <Button type="text" className="navbarButton">{t("aboutButton")}</Button>
-                    <Button type="text" className="navbarButton">{t("projectsButton")}</Button>
-                    <Button type="text" className="navbarButton">{t("contactButton")}</Button>
+                    <Button type="link" className="navbarButton" href="#journey">{t("aboutButton")}</Button>
+                    <Button type="link" className="navbarButton" href="#projects">{t("projectsButton")}</Button>
+                    <Button type="link" className="navbarButton" href="#contact">{t("contactButton")}</Button>
                     <Dropdown
                         menu={{
                             items,

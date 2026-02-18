@@ -17,7 +17,7 @@ const Journey = () => {
     ];
 
     return (
-        <section className="journey">
+        <section className="journey" id="journey">
             <div className="journeyHeader">
                 <h2 className='containerTitle'>{t("title")}</h2>
             </div>

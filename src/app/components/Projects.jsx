@@ -21,7 +21,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             {/* <div className="projectsContainer"> */}
                 <div className="projectsHeader">
                     <h2 className='containerTitle'>{t("title")}</h2>
