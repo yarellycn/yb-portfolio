@@ -1,7 +1,7 @@
 "use client";
 
 import NavBar from "./Navbar";
-import ParallaxHero from "./ParallaxBanner";
+import ParallaxHero from "./ParallaxHero";
 
 const Home = () => {
     return (

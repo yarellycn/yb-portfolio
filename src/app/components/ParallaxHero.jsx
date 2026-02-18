@@ -7,15 +7,15 @@ const ParallaxHero = () => {
   const t = useTranslations("Hero");
 
   return (
-    <section className="hero">
-      <Parallax speed={-12}>
+    <section className="parallaxContainer">
+      <Parallax speed={-17} className="parallaxLayer">
         <img
           src="hero/mountain-back.png"
           className="mountainBack"
         />
       </Parallax>
 
-      <Parallax speed={-14}>
+      <Parallax speed={0} className="parallaxLayer">
         <img
           src="hero/mountain-front.png"
           className="mountainFront"
@@ -24,12 +24,10 @@ const ParallaxHero = () => {
 
       <img src="sun.png" className="heroSun"></img>
 
-      <Parallax speed={-5}>
-        <div className="heroText">
-          <h1>{t("homeTitle")}</h1>
-          <p>{t("homeDescription")}</p>
-        </div>
-      </Parallax>
+      <div className="heroText">
+        <h1>{t("homeTitle")}</h1>
+        <p>{t("homeDescription")}</p>
+      </div>
 
       <img src="hero/hero-llama.png" className="heroLlama"></img>
     </section>
